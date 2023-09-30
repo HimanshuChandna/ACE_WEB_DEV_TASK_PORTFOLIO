@@ -51,6 +51,7 @@ body{
 .landing-page{
 
     height:100vh;
+    border:2px solid black;
 
 }
 
@@ -94,16 +95,19 @@ body{
 
 #sub_heading_1{
 
-    font-size:1.5rem;
+    font-size:1.2rem;
     text-wrap:wrap;
+    font-family: poppins;
 
 }
 
 #sub_heading_2{
 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width:80rem;
     text-align: center;
     text-wrap:wrap;
+    font-family: poppins;
 
 }
 
@@ -142,6 +146,8 @@ body{
 .academic_details{
 
     height:100vh;
+    border:2px solid black;
+    padding:5rem 0rem 0rem 0rem;
 
 }
 
@@ -164,6 +170,8 @@ body{
 
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -171,5 +179,159 @@ body{
 
     text-align: center;
     text-wrap:wrap;
+    font-family:poppins;
+
+}
+
+.connect_btns{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3rem;
+
+}
+
+.connect_btns a{
+
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    font-size:1.1rem;
+    gap:.5rem;
+    border:2px solid black;
+    border-radius:5px;
+    padding:.5rem 1.5rem;
+    text-decoration:none;
+    color:black;
+    font-family:poppins;
+    font-weight: 500;
+
+}
+
+.connect_btns img{
+
+    width:1.4rem;
+
+}
+
+.academic-timeline{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    gap:1rem;
+    margin:7rem 0rem;
+
+}
+
+.high_school, .uni_1, .uni_2{
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* border:2px solid black; */
+
+}
+
+.academin-underline{
+
+    border:2px solid black;
+    width:100%;
+
+}
+
+.achievement_indicator{
+
+    width:1rem;
+    height:1rem;
+    border:1px solid green;
+    border-radius:100%;
+    background-color:green;
+
+}
+
+#data{
+
+    font-family:poppins;
+
+}
+
+/* Third Page Styling */
+
+.experiences{
+
+    height:100vh;
+    padding:5rem 0rem 0rem 0rem;
+
+    border:2px solid black;
+
+}
+
+/* Fourth Page Styling */
+
+.contact_me{
+
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family:poppins;
+    padding:5rem 0rem 0rem 0rem;
+
+
+    border:2px solid black;
+
+}
+
+#contact-tag{
+
+    font-weight:600;
+    font-size:1.3rem;
+
+}
+
+#contact-info{
+
+    text-align: center;
+    margin:8rem;
+    font-size:1.1rem;
+
+}
+
+#contact-info a{
+
+    text-decoration: none;
+
+}
+
+/* Footer Styling */
+
+.footer{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:poppins;
+    font-size: .9rem;
+    
+
+}
+
+.footer_social_btns{
+
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    margin:1rem 0rem 0rem 0rem;
+
+}
+
+.footer_social_btns img{
+
+    width:1.2rem;
+    height:1.2rem;
 
 }
