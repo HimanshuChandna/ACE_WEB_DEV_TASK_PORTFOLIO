@@ -7,7 +7,9 @@
 
 body{
 
-    
+    margin:0rem;
+    padding:0rem;
+ 
 
 }
 
@@ -41,8 +43,285 @@ body{
     display:flex;
     flex-direction: row;
     gap:10rem;
+    /* gap:1rem; */
+    /* gap:rem; */
     list-style: none;
     flex-wrap: wrap;
+
+}
+
+@media (min-width:720px) {
+
+
+    #name_heading{
+
+        font-size:3rem;
+
+    }
+
+    .underline{
+
+        width:20%;
+
+    }
+
+    #sub_heading_1{
+
+        font-size:1.2rem;
+
+    }
+
+    #sub_heading_2{
+
+        width:80rem;
+        font-size:1.2rem;
+
+    }
+
+    .social-btns img{
+
+        width:2rem;
+
+    }
+
+    .nav_btns a{
+
+        font-size:1.3rem;
+
+    }
+
+    #page_down_btn{
+
+        width:4rem;
+
+    }
+
+    /* Second Page Styling */
+
+    .intro_underline{
+
+        width:20%;
+        border:2px solid black;
+        margin:0rem auto 3rem auto;
+
+    }
+
+    #introduction{
+
+        margin:0rem 2rem 2rem 0rem;
+
+    }
+
+    .academic_details{
+
+        height:100vh;
+
+    }
+
+    .img-intro-connect_section{
+
+        display:flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    
+    }
+
+    #profile-picture{
+
+        width:15rem;
+        height:15rem;
+        margin:0rem 2rem
+
+    }
+    
+    .academic-timeline{
+
+        flex-direction: row;
+
+    }
+
+    .high_school, .uni_1, .uni_2{
+
+        flex-direction: column;
+
+    }
+
+    .academin-underline{
+
+        border:2px solid black;
+        width:100%;
+
+    }
+
+    /* Third Page Styling */
+
+    .experiences{
+
+        height:100vh;
+
+    }
+
+    #project-desc , #work-desc{
+
+        margin:1rem;
+
+    }
+
+    /* Fourth Page Styling */
+
+    .contact_me{
+
+        height:100vh;
+
+    }
+
+    #contact-info{
+    
+        font-size: 1.1rem;
+        margin:8rem;
+
+    }
+
+}
+
+@media (max-width:480px) and (min-width:320px) {
+    
+    #nav-list{
+
+        gap:1.1rem;
+
+    }
+
+    #name_heading{
+
+        margin:5rem 0rem 1rem 0rem;
+        font-size:2rem;
+
+    }
+
+    .underline{
+
+        width:40%;
+
+    }
+
+    #sub_heading_1, #sub_heading_2{
+
+        font-size:1rem;
+        margin:1rem;
+
+    }
+
+    .social-btns img{
+
+        width:1.5rem;
+
+    }
+    
+    .nav_btns a{
+
+        margin:2rem 0rem 0rem 0rem;
+        font-size:1rem;
+
+    }
+
+    #page_down_btn{
+
+        width:2rem;
+
+    }
+
+    /* Second Page Styling */
+
+    .intro_underline{
+
+        border:2px solid black;
+        width:40%;
+        margin:0rem auto 3rem auto;
+
+    }
+
+    #introduction{
+
+        margin:0rem 2rem 3rem 2rem;
+
+    }
+
+    .img-intro-connect_section{
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #profile-picture{
+
+        width:10rem;
+        height:10rem;
+        margin:0rem 0rem 3rem 0rem;
+
+    }
+
+    .academic-timeline{
+
+        flex-direction:column;
+
+    }
+
+    .high_school, .uni_1, .uni_2{
+
+        flex-direction: row;
+
+    }
+
+    .academin-underline{
+
+        border-left:4px solid black;
+        height:10rem;
+
+    }
+
+    #data{
+
+        font-weight: 600;
+        text-align: center;
+        text-wrap:wrap;
+        width:10rem;
+        margin:0rem .5rem 0rem .5rem;
+
+    }
+
+    /* Third Page Styling */
+
+    #skill-list{
+
+        padding:0rem;
+
+    }
+
+    #project-desc , #work-desc{
+    
+        width:20rem;
+        text-align: center;
+        padding:0rem;
+
+    }
+    /* Fourth Page Styling */
+
+    .contact_me{
+
+        height:60vh;
+
+    }
+
+    #contact-info{
+
+        margin:3rem 3rem;
+
+    }
+
+
 
 }
 
@@ -51,7 +330,7 @@ body{
 .landing-page{
 
     height:100vh;
-    border:2px solid black;
+    /* border:2px solid black; */
 
 }
 
@@ -65,7 +344,7 @@ body{
 
 #name_heading{
 
-    font-size:3rem;
+    /* font-size:2rem; */
     font-family: 'Averia Serif Libre',regular;
 
 }
@@ -73,7 +352,7 @@ body{
 .underline{
 
     border:2px solid black;
-    width:20%;
+    /* width:20%; */
 
 }
 
@@ -87,7 +366,7 @@ body{
 
 .social-btns img{
 
-    width:2rem;
+    /* width:2rem; */
     height:auto;
     margin:3rem 1rem;
 
@@ -95,7 +374,8 @@ body{
 
 #sub_heading_1{
 
-    font-size:1.2rem;
+    /* font-size:1.2rem; */
+    text-align: center;
     text-wrap:wrap;
     font-family: poppins;
 
@@ -103,8 +383,8 @@ body{
 
 #sub_heading_2{
 
-    font-size: 1.2rem;
-    width:80rem;
+    /* font-size: 1.2rem; */
+    /* width:80rem; */
     text-align: center;
     text-wrap:wrap;
     font-family: poppins;
@@ -123,7 +403,7 @@ body{
 
     border:2px solid black;
     padding:1rem 2rem;
-    font-size:1.3rem;
+    /* font-size:1.3rem; */
     text-decoration: none;
     color:black;
     border-radius:5px;
@@ -135,7 +415,7 @@ body{
 
     display: flex;
     flex-direction: row;
-    width:4rem;
+    /* width:4rem; */
     margin:2rem;
     scroll-behavior: smooth;
 
@@ -145,24 +425,37 @@ body{
 
 .academic_details{
 
-    height:100vh;
-    border:2px solid black;
+    /* height:100vh; */
+    /* border:2px solid black; */
     padding:5rem 0rem 0rem 0rem;
 
 }
 
-.img-intro-connect_section{
+/* .img-intro-connect_section{
 
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
+} */
+
+#intro_tag{
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: poppins;
+    font-weight:600;
 
 }
 
 #profile-picture{
 
-    width:15rem;
-    height:15rem;
-    margin:0rem 2rem;
+    /* width:15rem;
+    height:15rem; */
+    /* margin:0rem 2rem; */
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1rem .5px grey;
 
 }
 
@@ -206,6 +499,7 @@ body{
     color:black;
     font-family:poppins;
     font-weight: 500;
+    box-shadow: 0px 0px 1rem grey;
 
 }
 
@@ -218,7 +512,7 @@ body{
 .academic-timeline{
 
     display:flex;
-    flex-direction:row;
+    /* flex-direction:row; */
     justify-content:center;
     align-items: center;
     gap:1rem;
@@ -229,7 +523,7 @@ body{
 .high_school, .uni_1, .uni_2{
 
     display:flex;
-    flex-direction:column;
+    /* flex-direction:column; */
     align-items: center;
     /* border:2px solid black; */
 
@@ -237,8 +531,8 @@ body{
 
 .academin-underline{
 
-    border:2px solid black;
-    width:100%;
+    /* border:2px solid black; */
+    /* width:100%; */
 
 }
 
@@ -262,10 +556,97 @@ body{
 
 .experiences{
 
-    height:100vh;
+    /* height:100vh; */
     padding:5rem 0rem 0rem 0rem;
+    font-family:poppins;
+    /* border:2px solid black; */
 
-    border:2px solid black;
+}
+
+.skills{
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap:wrap;
+    font-weight: 600;
+
+}
+
+#skills{
+
+    font-size:1.5rem;
+
+}
+
+#skill-list{
+
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    margin:2rem 4rem;
+
+}
+
+#skill-list li{
+
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#skill-img{
+
+    width:5rem;
+    height:auto;
+    padding:0rem 0rem 1rem 0rem;
+
+}
+
+.projects{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+#projects , #work{
+
+    font-size:1.5rem;
+    font-weight:600;
+
+}
+
+#project-desc , #work-desc{
+
+    list-style: none;
+    text-wrap:wrap;
+    text-align:center;
+    /* margin:1rem; */
+
+}
+
+#work-desc a{
+
+    text-decoration:none;
+    color:blue;
+    font-weight:600;
+
+}
+
+.work_experiences{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 
 }
 
@@ -273,31 +654,32 @@ body{
 
 .contact_me{
 
-    height:100vh;
+    /* height:100vh; */
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     font-family:poppins;
     padding:5rem 0rem 0rem 0rem;
 
 
-    border:2px solid black;
+    /* border:2px solid black; */
 
 }
 
 #contact-tag{
 
     font-weight:600;
-    font-size:1.3rem;
+    font-size:1.5rem;
 
 }
 
 #contact-info{
 
     text-align: center;
-    margin:8rem;
-    font-size:1.1rem;
+    /* margin:8rem; */
+    /* font-size:1.1rem; */
 
 }
 
