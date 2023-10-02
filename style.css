@@ -13,6 +13,43 @@ body{
 
 }
 
+/* Navigation Bar Styling */
+
+.nav-items{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0rem 2rem;
+    flex-wrap: wrap;
+
+}
+
+.nav-items a{
+
+    text-decoration: none;
+    color:black;
+
+}
+
+#home_tag:hover,#nav-list:hover{
+
+    cursor:pointer;
+
+}
+
+#nav-list{
+
+    display:flex;
+    flex-direction: row;
+    gap:10rem;
+    /* gap:1rem; */
+    /* gap:rem; */
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
 @media (min-width:720px) {
 
 
@@ -147,7 +184,7 @@ body{
 
 }
 
-@media (max-width:480px) and (min-width:320px) {
+@media (max-width:480px) and (min-width:200px) {
     
     #nav-list{
 
@@ -287,44 +324,6 @@ body{
 
 
 }
-
-/* Navigation Bar Styling */
-
-.nav-items{
-
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:0rem 2rem;
-    flex-wrap: wrap;
-
-}
-
-.nav-items a{
-
-    text-decoration: none;
-    color:black;
-
-}
-
-#home_tag:hover,#nav-list:hover{
-
-    cursor:pointer;
-
-}
-
-#nav-list{
-
-    display:flex;
-    flex-direction: row;
-    gap:10rem;
-    /* gap:1rem; */
-    /* gap:rem; */
-    list-style: none;
-    flex-wrap: wrap;
-
-}
-
 
 /* First Page Styling */
 
