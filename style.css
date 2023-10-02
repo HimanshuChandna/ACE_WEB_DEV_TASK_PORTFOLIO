@@ -184,7 +184,7 @@ body{
 
 }
 
-@media (max-width:480px) and (min-width:320px) {
+@media (max-width:480px) and (min-width:200px) {
     
     #nav-list{
 
@@ -317,7 +317,7 @@ body{
 
     #contact-info{
 
-        margin:3rem 3rem;
+        margin:2rem;
 
     }
 
