@@ -13,43 +13,6 @@ body{
 
 }
 
-/* Navigation Bar Styling */
-
-.nav-items{
-
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:0rem 2rem;
-    flex-wrap: wrap;
-
-}
-
-.nav-items a{
-
-    text-decoration: none;
-    color:black;
-
-}
-
-#home_tag:hover,#nav-list:hover{
-
-    cursor:pointer;
-
-}
-
-#nav-list{
-
-    display:flex;
-    flex-direction: row;
-    gap:10rem;
-    /* gap:1rem; */
-    /* gap:rem; */
-    list-style: none;
-    flex-wrap: wrap;
-
-}
-
 @media (min-width:720px) {
 
 
@@ -317,13 +280,51 @@ body{
 
     #contact-info{
 
-        margin:3rem 3rem;
+        margin:2rem;
 
     }
 
 
 
 }
+
+/* Navigation Bar Styling */
+
+.nav-items{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0rem 2rem;
+    flex-wrap: wrap;
+
+}
+
+.nav-items a{
+
+    text-decoration: none;
+    color:black;
+
+}
+
+#home_tag:hover,#nav-list:hover{
+
+    cursor:pointer;
+
+}
+
+#nav-list{
+
+    display:flex;
+    flex-direction: row;
+    gap:10rem;
+    /* gap:1rem; */
+    /* gap:rem; */
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
 
 /* First Page Styling */
 
