@@ -529,6 +529,12 @@ body{
 
 }
 
+.high_school a, .uni_1 a, .uni_2 a{
+
+    text-decoration:none;
+
+} 
+
 .academin-underline{
 
     /* border:2px solid black; */
@@ -549,6 +555,8 @@ body{
 #data{
 
     font-family:poppins;
+    text-decoration: none;
+    color:black;
 
 }
 
@@ -589,6 +597,13 @@ body{
     justify-content: center;
     align-items: center;
     margin:2rem 4rem;
+
+}
+
+#skill-list a{
+
+    text-decoration: none;
+    color:black;
 
 }
 
