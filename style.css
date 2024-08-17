@@ -3,6 +3,17 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+
+    --purple:#D19EFD;
+    --purple-gradient:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+
 .html{
     
     scroll-behavior: smooth;
@@ -17,722 +28,64 @@ body{
 
 }
 
-/* Navigation Bar Styling */
-
-.nav-items{
-
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:0rem 2rem;
-    flex-wrap: wrap;
-
-}
-
-.nav-items a{
-
-    text-decoration: none;
-    color:black;
-
-}
-
-#home_tag:hover,#nav-list:hover{
-
-    cursor:pointer;
-
-}
-
-#nav-list{
-
-    display:flex;
-    flex-direction: row;
-    gap:10rem;
-    /* gap:1rem; */
-    /* gap:rem; */
-    list-style: none;
-    flex-wrap: wrap;
-
-}
-
-@media (min-width:720px) {
-
-
-    #name_heading{
-
-        font-size:3rem;
-
-    }
-
-    .underline{
-
-        width:20%;
-
-    }
-
-    #sub_heading_1{
-
-        font-size:1.2rem;
-
-    }
-
-    #sub_heading_2{
-
-        width:80rem;
-        font-size:1.2rem;
-
-    }
-
-    .social-btns img{
-
-        width:2rem;
-
-    }
-
-    .nav_btns a{
-
-        font-size:1.3rem;
-
-    }
-
-    #page_down_btn{
-
-        width:4rem;
-
-    }
-
-    /* Second Page Styling */
-
-    .intro_underline{
-
-        width:20%;
-        border:2px solid black;
-        margin:0rem auto 3rem auto;
-
-    }
-
-    #introduction{
-
-        margin:0rem 2rem 2rem 0rem;
-
-    }
-
-    .academic_details{
-
-        height:100vh;
-
-    }
-
-    .img-intro-connect_section{
-
-        display:flex;
-        flex-direction: row;
-        /* flex-wrap: wrap; */
-    
-    }
-
-    #profile-picture{
-
-        width:15rem;
-        height:15rem;
-        margin:0rem 2rem
-
-    }
-    
-    .academic-timeline{
-
-        flex-direction: row;
-
-    }
-
-    .high_school, .uni_1, .uni_2{
-
-        flex-direction: column;
-
-    }
-
-    .academin-underline{
-
-        border:2px solid black;
-        width:100%;
-
-    }
-
-    /* Third Page Styling */
-
-    .experiences{
-
-        height:100vh;
-
-    }
-
-    #project-desc , #work-desc{
-
-        margin:1rem;
-
-    }
-
-    /* Fourth Page Styling */
-
-    .contact_me{
-
-        height:100vh;
-
-    }
-
-    #contact-info{
-    
-        font-size: 1.1rem;
-        margin:8rem;
-
-    }
-
-}
-
-@media (max-width:480px) and (min-width:200px) {
-    
-    #nav-list{
-
-        gap:1.1rem;
-
-    }
-
-    #name_heading{
-
-        margin:5rem 0rem 1rem 0rem;
-        font-size:2rem;
-
-    }
-
-    .underline{
-
-        width:40%;
-
-    }
-
-    #sub_heading_1, #sub_heading_2{
-
-        font-size:1rem;
-        margin:1rem;
-
-    }
-
-    .social-btns img{
-
-        width:1.5rem;
-
-    }
-    
-    .nav_btns a{
-
-        margin:2rem 0rem 0rem 0rem;
-        font-size:1rem;
-
-    }
-
-    #page_down_btn{
-
-        width:2rem;
-
-    }
-
-    /* Second Page Styling */
-
-    .intro_underline{
-
-        border:2px solid black;
-        width:40%;
-        margin:0rem auto 3rem auto;
-
-    }
-
-    #introduction{
-
-        margin:0rem 2rem 3rem 2rem;
-
-    }
-
-    .img-intro-connect_section{
-
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    #profile-picture{
-
-        width:10rem;
-        height:10rem;
-        margin:0rem 0rem 3rem 0rem;
-
-    }
-
-    .academic-timeline{
-
-        flex-direction:column;
-
-    }
-
-    .high_school, .uni_1, .uni_2{
-
-        flex-direction: row;
-
-    }
-
-    .academin-underline{
-
-        border-left:4px solid black;
-        height:10rem;
-
-    }
-
-    #data{
-
-        font-weight: 600;
-        text-align: center;
-        text-wrap:wrap;
-        width:10rem;
-        margin:0rem .5rem 0rem .5rem;
-
-    }
-
-    /* Third Page Styling */
-
-    #skill-list{
-
-        padding:0rem;
-
-    }
-
-    #project-desc , #work-desc{
-    
-        width:20rem;
-        text-align: center;
-        padding:0rem;
-
-    }
-    /* Fourth Page Styling */
-
-    .contact_me{
-
-        height:60vh;
-
-    }
-
-    #contact-info{
-
-        margin:2rem;
-
-    }
-
-
-
-}
-
-/* First Page Styling */
-
 .landing-page{
 
-    height:100vh;
-    /* border:2px solid black; */
+    margin-top:3.75rem;
 
 }
 
-.upper-sec{
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+#greetings{
 
-}
-
-#name_heading{
-
-    /* font-size:2rem; */
-    font-family: 'Averia Serif Libre',regular;
+    font-family:'Montserrat';
+    font-size:medium;
 
 }
 
-.underline{
+#name{
 
-    border:2px solid black;
-    /* width:20%; */
-
-}
-
-.social-btns{
-
-    display:flex;
-    flex-direction:row;
-    gap:2.5rem;
+    width:50%;
+    word-wrap: inherit;
+    font-size:5rem;
 
 }
 
-.social-btns img{
+.profile_img{
 
-    /* width:2rem; */
-    height:auto;
-    margin:3rem 1rem;
-
-}
-
-#sub_heading_1{
-
-    /* font-size:1.2rem; */
-    text-align: center;
-    text-wrap:wrap;
-    font-family: poppins;
+    height:50vh;
+    width:auto;
+    border-radius:50%;
 
 }
 
-#sub_heading_2{
-
-    /* font-size: 1.2rem; */
-    /* width:80rem; */
-    text-align: center;
-    text-wrap:wrap;
-    font-family: poppins;
-
-}
-
-.nav_btns{
-
-    display:flex;
-    flex-direction:row;
-    gap:2rem;
-
-}
-
-.nav_btns a{
-
-    border:2px solid black;
-    padding:1rem 2rem;
-    /* font-size:1.3rem; */
-    text-decoration: none;
-    color:black;
-    border-radius:5px;
-    scroll-behavior: smooth;
-
-}
-
-#page_down_btn{
-
-    display: flex;
-    flex-direction: row;
-    /* width:4rem; */
-    margin:2rem;
-    scroll-behavior: smooth;
-
-}
-
-/* Second Page Styling */
-
-.academic_details{
-
-    /* height:100vh; */
-    /* border:2px solid black; */
-    padding:5rem 0rem 0rem 0rem;
-
-}
-
-/* .img-intro-connect_section{
-
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-} */
-
-#intro_tag{
-
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: poppins;
-    font-weight:600;
-
-}
-
-#profile-picture{
-
-    /* width:15rem;
-    height:15rem; */
-    /* margin:0rem 2rem; */
-    border: 2px solid lightgrey;
-    border-radius: 8px;
-    box-shadow: 0px 0px 1rem .5px grey;
-
-}
-
-.intro_section{
-
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#introduction{
-
-    text-align: center;
-    text-wrap:wrap;
-    font-family:poppins;
-
-}
-
-.connect_btns{
-
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:3rem;
-
-}
-
-.connect_btns a{
-
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    font-size:1.1rem;
-    gap:.5rem;
-    border:2px solid black;
-    border-radius:5px;
-    padding:.5rem 1.5rem;
-    text-decoration:none;
-    color:black;
-    font-family:poppins;
-    font-weight: 500;
-    box-shadow: 0px 0px 1rem grey;
-
-}
-
-.connect_btns img{
-
-    width:1.4rem;
-
-}
-
-.academic-timeline{
-
-    display:flex;
-    /* flex-direction:row; */
-    justify-content:center;
-    align-items: center;
-    gap:1rem;
-    margin:7rem 0rem;
-
-}
-
-.high_school, .uni_1, .uni_2{
-
-    display:flex;
-    /* flex-direction:column; */
-    align-items: center;
-    /* border:2px solid black; */
-
-}
-
-.high_school a, .uni_1 a, .uni_2 a{
-
-    text-decoration:none;
-
-} 
-
-.academin-underline{
-
-    /* border:2px solid black; */
-    /* width:100%; */
-
-}
-
-.achievement_indicator{
-
-    width:1rem;
-    height:1rem;
-    border:1px solid green;
-    border-radius:100%;
-    background-color:green;
-
-}
-
-#data{
-
-    font-family:poppins;
-    text-decoration: none;
-    color:black;
-
-}
-
-/* Third Page Styling */
-
-.experiences{
-
-    /* height:100vh; */
-    padding:5rem 0rem 0rem 0rem;
-    font-family:poppins;
-    /* border:2px solid black; */
-
-}
-
-.skills{
-
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    flex-wrap:wrap;
-    font-weight: 600;
-
-}
-
-#skills{
-
-    font-size:1.5rem;
-
-}
-
-#skill-list{
-
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    gap:2rem;
-    justify-content: center;
-    align-items: center;
-    margin:2rem 4rem;
-
-}
-
-#skill-list a{
-
-    text-decoration: none;
-    color:black;
-
-}
-
-#skill-list li{
-
-    /* border:2px solid black; */
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-
-#skill-img{
-
-    width:5rem;
-    height:auto;
-    padding:0rem 0rem 1rem 0rem;
-
-}
-
-.projects{
-
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-
-}
-
-#projects , #work{
-
-    font-size:1.5rem;
-    font-weight:600;
-
-}
-
-#project-desc , #work-desc{
-
-    list-style: none;
-    text-wrap:wrap;
-    text-align:center;
-    /* margin:1rem; */
-
-}
-
-#work-desc a{
-
-    text-decoration:none;
-    color:blue;
-    font-weight:600;
-
-}
-
-.work_experiences{
-
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-
-}
-
-/* Fourth Page Styling */
-
-.contact_me{
-
-    /* height:100vh; */
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family:poppins;
-    padding:5rem 0rem 0rem 0rem;
-
-
-    /* border:2px solid black; */
-
-}
-
-#contact-tag{
-
-    font-weight:600;
-    font-size:1.5rem;
-
-}
-
-#contact-info{
-
-    text-align: center;
-    /* margin:8rem; */
-    /* font-size:1.1rem; */
-
-}
-
-#contact-info a{
-
-    text-decoration: none;
-
-}
-
-/* Footer Styling */
-
-.footer{
-
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    font-family:poppins;
-    font-size: .9rem;
+.profile_btn{
     
+    width:16rem;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    border:.1rem solid var(--purple);
+    justify-content:space-between;
 
 }
 
-.footer_social_btns{
+.profile_btn>p{
+
+    padding:.5rem 1rem;
+    font-family:'Montserrat';
+    font-weight: bold;
+
+}
+
+#profile_btn_ico{
 
     display:flex;
-    flex-direction: row;
-    gap:2rem;
-    margin:1rem 0rem 0rem 0rem;
+    height:inherit;
+    width:25%;
+    padding:0px;
+    background-color:var(--purple);
+    border: .1rem solid var(--purple);
 
 }
 
-.footer_social_btns img{
 
-    width:1.2rem;
-    height:1.2rem;
-
-}
